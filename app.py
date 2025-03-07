@@ -6,6 +6,12 @@ import pandas as pd
 
 # Set the page configuration
 st.set_page_config(page_title="Invoice Extraction Bots", layout="wide")
+hide_github = """
+    <style>
+    .stDeployButton {display: none !important;}
+    </style>
+"""
+st.markdown(hide_github, unsafe_allow_html=True)
 
 def add_custom_css():
     """Add custom CSS for styling."""
