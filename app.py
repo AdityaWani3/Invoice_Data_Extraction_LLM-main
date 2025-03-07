@@ -6,14 +6,6 @@ import pandas as pd
 
 # Set the page configuration
 st.set_page_config(page_title="Invoice Extraction Bot", layout="wide")
-st.set_page_config(page_title="Invoice Extraction Bot", layout="wide")
-
-# start Arun hide github on streamlit
-
-hide_github = """
-    <style>
-    .stDeployButton {display: none !important;}
-    </style>
 
 def add_custom_css():
     """Add custom CSS for styling."""
