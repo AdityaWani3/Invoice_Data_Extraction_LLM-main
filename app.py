@@ -5,7 +5,7 @@ from backend import create_docs
 import pandas as pd
 
 # Set the page configuration
-st.set_page_config(page_title="Invoice Extraction Bot", layout="wide")
+st.set_page_config(page_title="Invoice Extraction Bots", layout="wide")
 
 def add_custom_css():
     """Add custom CSS for styling."""
