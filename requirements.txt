@@ -20,3 +20,4 @@ pillow
 opencv-python
 matplotlib
 easyocr
+opencv-python-headless
